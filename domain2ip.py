@@ -1,3 +1,23 @@
+import os
+import socket
+import concurrent.futures
+from colorama import Fore, Style, init
+
+init(autoreset=True)
+
+banner = """
+   ██████  ██    ██ ██████      ██████  ███████ ███    ███  ██████  ██    ██ ███████
+   ██   ██ ██    ██ ██   ██     ██   ██ ██      ████  ████ ██    ██ ██    ██ ██
+   ██   ██ ██    ██ ██████      ██████  █████   ██ ████ ██ ██    ██ ██    ██ █████
+   ██   ██ ██    ██ ██          ██   ██ ██      ██  ██  ██ ██    ██  ██  ██  ██
+   ██████   ██████  ██          ██   ██ ███████ ██      ██  ██████    ████   ███████
+
+                   --------------------------------------
+                   |                                    |
+                   |            VERSION 1.0             |
+                   | DUPLICATE SITE REMOVER BY GRAYBYT3 |
+                   |                                    |
+                   --------------------------------------
 # Graybyt3 - Ex-Blackhat 🖤 | Ex Super Mod of Team_CC.
 # Now securing systems as a Senior Security Expert 🛡️.
 # I hack servers for fun, patch them to torture you.
@@ -9,12 +29,7 @@
 #
 # WARNING: Steal my code, and I'll call you Pappu — there's no worse shame in this world than being called Pappu.
 # #FuCk_Pappu
-
-import socket
-import concurrent.futures
-from colorama import init, Fore, Style
-
-init()
+"""
 
 print("\n\n\n")
 print(f"{Fore.RED}░█▀▀█ {Fore.GREEN}░█▀▀█ {Fore.YELLOW}─█▀▀█ {Fore.BLUE}░█──░█ {Fore.MAGENTA}░█▀▀█ {Fore.CYAN}░█──░█ {Fore.RED}▀▀█▀▀ {Fore.GREEN}░█▀▀▀ {Fore.YELLOW}　 {Fore.BLUE}░█▀▀▄ {Fore.MAGENTA}　 {Fore.CYAN}█▀█ {Fore.RED}　 {Fore.GREEN}▀█▀ {Fore.YELLOW}░█▀▀█")
